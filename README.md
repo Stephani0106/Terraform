@@ -2,12 +2,13 @@
 
 # Table of Contents
 
-- [Repositório Terraform Udemy](#repositório-terraform-udemy)
+- [Repositório Terraform](#repositório-terraform)
 - [O curso](#o-ccurso)
-   - [Informações de contato](#informações-de-contato)
+- [Organização dos recursos](#organização-dos-recursos)
+- [Informações de contato](#informações-de-contato)
 
 
-# Repositório Terraform Udemy
+# Repositório Terraform
 
 Este repositório armazena o conteúdo estudado ao longo do curso de Terraform realizado na plataforma de ensino Udemy e alguns projetos de estudo pessoais a respeito do assunto.
 
@@ -19,8 +20,17 @@ Tudo sobre Terraform e melhores práticas de uso para DevOps com hands-on em AWS
 
 Tutor: Daniel Gil
 
+# Organização dos recursos
+
+Os recursos existentes nesse repositório estão divididos entre recursos usados no curso e recursos criados para fins de estudo, sendo separados da seguinte forma:
+
+- **Recursos prefixados com `udemy_section_n_*` ou `lab-udemy-n-*`:** Recursos criados durante o curso.
+- **Recursos prefixados com `study_section_n_*` ou `lab-study-n-*`:** Recursos criados a fins de estudo.
+
+> `n` representa um número qualquer, exemplo: udemy_section_`05`_vm_rg
+
 # Informações de contato
 
 Responsável: Stéphani Pinheiro Ferreira
 
-E-Mail: stephani182@hotmail.com
+E-mail: stephani182@hotmail.com

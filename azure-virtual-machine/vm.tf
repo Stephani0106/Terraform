@@ -45,7 +45,7 @@ resource "azurerm_linux_virtual_machine" "udemy_section_05_vm" {
   ]
 
   admin_ssh_key {
-    username   = var.vm_adm_username
+    username = var.vm_adm_username
     # Run `ssh-keygen -f azure_key` to generate the ssh keys
     public_key = file("./azure_key.pub")
   }

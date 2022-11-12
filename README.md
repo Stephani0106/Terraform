@@ -1,38 +1,26 @@
-# Errors found
+![](/img/Terraform_Logo_01.png)
 
-## Error acquiring the state lock
+# Table of Contents
 
-### How to reproduce this
-
-* Run `terraform apply`
-* Stop the apply for any reason, either by pressing CTRL+C or closing the terminal
-* Run `terraform apply` again
-
-### Error message
-
-state blob is already locked
-
-![](/img/2022-11-11-22-06-04.png)
-
-### Solution
-
-* [StackOverflow Forum](https://stackoverflow.com/questions/64690427/error-locking-state-error-acquiring-the-state-lock-state-blob-is-already-locke)
+- [Repositório Terraform Udemy](#repositório-terraform-udemy)
+- [O curso](#o-ccurso)
+   - [Informações de contato](#informações-de-contato)
 
 
-## Error creating Linux Virtual Machine 
+# Repositório Terraform Udemy
 
-### How to reproduce this
+Este repositório armazena o conteúdo estudado ao longo do curso de Terraform realizado na plataforma de ensino Udemy e alguns projetos de estudo pessoais a respeito do assunto.
 
-* Configure a VM with a invalid size for the current location, in this case I used the size `Standard_B1s` for the region `East US 2`
-* Run `terraform apply`
+# O curso
 
-### Error message
+[Terraform - Do Básico ao Avançado 2022](https://www.udemy.com/course/terraform-do-basico-ao-avancado/)
 
-The requested size for resource '/subscriptions/`Subscription-ID`/resourceGroups/`Subscription-ID`/providers/Microsoft.Compute/virtualMachines/`VM-Name`' is currently not available in location 'eastus2' zones '' for subscription '`Subscription-ID`'. Please try another size or deploy to a different location or zones.
+Tudo sobre Terraform e melhores práticas de uso para DevOps com hands-on em AWS e Azure.
 
-![](/img/2022-11-11-22-09-22.png)
+Tutor: Daniel Gil
 
-### Solution
+# Informações de contato
 
-* [Azure | Products available by region](https://azure.microsoft.com/en-ca/explore/global-infrastructure/products-by-region/?products=virtual-machines)
-* Run: `az vm list-sizes --location "eastus2"` and choose a available size
+Responsável: Stéphani Pinheiro Ferreira
+
+E-Mail: stephani182@hotmail.com

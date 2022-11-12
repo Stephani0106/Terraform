@@ -6,3 +6,4 @@ Docker/.env
 */plan.out
 */.terraform.tfstate.lock.info
 */terraform.tfvars
+*/azure_key*
